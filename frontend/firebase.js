@@ -3,13 +3,13 @@ import { getAnalytics } from "firebase/analytics";
 import{ getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
-  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
+  apiKey: "AIzaSyCEgW9TQugJ9lDj9DiY1J2lfr-kv373cp4",
+  authDomain: "jugaadpay.firebaseapp.com",
+  projectId: "jugaadpay",
+  storageBucket: "jugaadpay.firebasestorage.app",
+  messagingSenderId: "179570376540",
+  appId: "1:179570376540:web:eebb2292b7b9497ff3cb99",
+  measurementId: "G-VVWW1WWW0L"
 };
 
 // Initialize Firebase
