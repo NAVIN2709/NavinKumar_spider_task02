@@ -4,6 +4,7 @@ import { useAuth } from "../context/AuthContext";
 
 const Login = () => {
   const navigate = useNavigate();
+  const API_URL = import.meta.env.VITE_API_URL;
   const { loginWithGoogle, login } = useAuth(); // from AuthContext
 
   const [email, setEmail] = useState("");
@@ -28,7 +29,7 @@ const Login = () => {
       const { uid, displayName, email, photoURL } = user;
       if (!user) throw new Error("error")
 
-      const res = await fetch("http://localhost:3000/api/users", {
+      const res = await fetch(`${API_URL}/api/users`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
