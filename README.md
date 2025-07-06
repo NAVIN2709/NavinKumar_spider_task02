@@ -32,8 +32,12 @@ Persistent user sessions
 No manual signup/login needed — just sign in with Google
 
 🛠️ Tech Stack
+
 Frontend: React.js
+
 Backend: Node.js + Express.js
+
 Auth: Firebase Authentication (Google OAuth)
+
 Database: MongoDB (with Mongoose)
 
